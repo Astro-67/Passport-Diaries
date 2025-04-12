@@ -1,0 +1,53 @@
+/* Main container for the whole page, including navbar and content */
+.mainContent {
+    background-image: linear-gradient(
+      rgba(36, 42, 46, 0.85),
+      rgba(36, 42, 46, 0.85)
+    );
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 3rem 5rem;
+    color: white; /* Text color for visibility */
+  }
+  
+  /* Styling for the product section */
+  .product {
+    display: flex;
+    align-items: center;  /* Align the items to the center vertically */
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 5rem; /* Space for navbar */
+  }
+  
+  /* Image container */
+  .imageContainer {
+    flex: 1; /* This ensures the image takes up half the available space */
+    max-width: 500px; /* Limits image size */
+  }
+  
+  .imageContainer img {
+    width: 100%; /* Make sure the image is responsive */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Add a shadow to the image */
+  }
+  
+  /* Content container (text) */
+  .content {
+    flex: 2; /* Takes up the remaining space */
+    max-width: 600px;
+  }
+  
+  .content h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: white;
+    line-height: 1.8;
+  }
+  

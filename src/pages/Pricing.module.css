@@ -1,0 +1,87 @@
+.pricing {
+    min-height: 100vh;
+    padding: 2.5rem 5rem;
+    background-image: linear-gradient(
+        rgba(36, 42, 46, 0.85),
+        rgba(36, 42, 46, 0.85)
+      );
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  .pricing section {
+    max-width: 1200px;
+    width: 100%;
+    color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .pricing h1 {
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+    color: #fff;
+  }
+  
+  .plans {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .plan {
+    background-color: #fff; /* Change background to white */
+    padding: 2rem;
+    border-radius: 12px;
+    width: 300px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Adjust shadow for better contrast */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #333; /* Set default text color for better readability */
+  }
+  
+  .plan:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  }
+  
+  .plan h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333; /* Adjust heading color for contrast */
+  }
+  
+  .plan p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    color: #555; /* Adjust price color for readability */
+  }
+  
+  .plan ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .plan ul li {
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+    color: #666; /* Adjust list item color */
+    position: relative;
+    padding-left: 1.5rem;
+  }
+  
+  .plan ul li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #00cc88; /* Keep the checkmark green for consistency */
+  }

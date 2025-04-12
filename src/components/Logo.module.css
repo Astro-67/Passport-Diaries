@@ -1,0 +1,12 @@
+/* Logo.module.css */
+
+.Logo {
+    height: 5.5rem; /* Increase this for a better visible size */
+    width: auto;
+    object-fit: contain;
+    display: block;
+    margin: auto 1rem;
+    cursor: pointer;
+    filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.3));
+  }
+  

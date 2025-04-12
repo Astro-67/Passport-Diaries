@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+.cta:link,
+cta:visited {
+  display: inline-block;
+
+  background-color: green;
+
+  color: black;
+
+  text-transform: uppercase;
+
+  text-decoration: none;
+
+  font-size: 1.6rem;
+
+  font-weight: 600;
+
+  padding: 1rem 3rem;
+
+  border-radius: 5px;
+}
