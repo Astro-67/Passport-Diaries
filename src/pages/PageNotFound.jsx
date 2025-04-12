@@ -1,11 +1,11 @@
 import React from "react";
 import PageNav from "./PageNav";
 
-export default function Homepage() {
+export default function PageNotFound() {
   return (
     <div>
       <PageNav />
-      <h1>Homepage</h1>
+      <h1>PageNotFound</h1>
     </div>
   );
 }
