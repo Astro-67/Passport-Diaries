@@ -1,0 +1,9 @@
+.map {
+  flex: 1;
+  background-color: #eaeaea; /* or any map placeholder color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: #333;
+}
