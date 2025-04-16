@@ -6,17 +6,18 @@
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
   overflow-y: auto;
 }
 
 .footer {
   margin-top: auto;
+  text-align: center; /* Ensure footer text is centered */
 }
 
 .copyright {
   font-size: 0.8rem;
   color: #ccc;
-  text-align: center;
 }

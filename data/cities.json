@@ -1,0 +1,64 @@
+{
+  "cities": [
+    {
+      "id": 1,
+      "cityName": "New York",
+      "country": "USA",
+      "emoji": "🗽",
+      "date": "2025-04-01",
+      "notes": "Visited the Statue of Liberty and Times Square.",
+      "position": {
+        "lat": 40.7128,
+        "lng": -74.0060
+      }
+    },
+    {
+      "id": 2,
+      "cityName": "Tokyo",
+      "country": "Japan",
+      "emoji": "🗼",
+      "date": "2025-03-15",
+      "notes": "Explored Shibuya Crossing and enjoyed sushi.",
+      "position": {
+        "lat": 35.6895,
+        "lng": 139.6917
+      }
+    },
+    {
+      "id": 3,
+      "cityName": "Paris",
+      "country": "France",
+      "emoji": "🗼",
+      "date": "2025-02-20",
+      "notes": "Visited the Eiffel Tower and the Louvre.",
+      "position": {
+        "lat": 48.8566,
+        "lng": 2.3522
+      }
+    },
+    {
+      "id": 4,
+      "cityName": "Sydney",
+      "country": "Australia",
+      "emoji": "🌉",
+      "date": "2025-01-10",
+      "notes": "Saw the Sydney Opera House and Bondi Beach.",
+      "position": {
+        "lat": -33.8688,
+        "lng": 151.2093
+      }
+    },
+    {
+      "id": 5,
+      "cityName": "Cape Town",
+      "country": "South Africa",
+      "emoji": "⛰️",
+      "date": "2024-12-05",
+      "notes": "Hiked Table Mountain and visited Robben Island.",
+      "position": {
+        "lat": -33.9249,
+        "lng": 18.4241
+      }
+    }
+  ]
+}
