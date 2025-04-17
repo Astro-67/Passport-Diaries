@@ -4,13 +4,13 @@ import { NavLink } from "react-router-dom";
 
 export default function AppNav() {
   return (
-    <div className={styles.nav}>
+    <ul className={styles.nav}>
       <li>
         <NavLink to="cities">Cities</NavLink>
       </li>
       <li>
         <NavLink to="countries">Country</NavLink>
       </li>
-    </div>
+    </ul>
   );
 }

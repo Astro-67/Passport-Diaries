@@ -1,31 +1,24 @@
+/* AppNav.module.css */
 .nav {
   display: flex;
-  align-items: center;
-  padding: 1rem;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  list-style: none;
+  padding: 0;
 }
 
-.nav li {
-  list-style: none; /* Remove default list styling */
+.nav a {
+  background-color: #2e2f38;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease;
 }
 
-.nav li a {
-  display: inline-block;
-  padding: 0.5rem 1rem; /* Add padding for the box effect */
-  border: 1px solid #ccc; /* Add a border for the box */
-  border-radius: 8px; /* Round the corners */
-  text-decoration: none; /* Remove underline */
-  color: #333; /* Default text color */
-  background-color: #f9f9f9; /* Default background color */
-  transition: all 0.3s ease; /* Smooth transition for hover and active states */
-}
-
-.nav li a:hover {
-  background-color: #e0e0e0; /* Change background on hover */
-}
-
-:global(.active) {
-  background-color: #00ffae; /* Active background color */
-  color: white; /* Active text color */
-  font-weight: bold; /* Make the active link bold */
-  border-color: #00cc88; /* Change border color for active link */
+.nav a:hover,
+.nav a.active {
+  background-color: #575a89;
 }

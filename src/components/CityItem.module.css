@@ -1,0 +1,40 @@
+/* CityItem.module.css */
+.cityItem {
+    background-color: #2b2c37;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    transition: background 0.3s ease;
+  }
+  
+  .cityItem:hover {
+    background-color: #393a4a;
+  }
+  
+  .emoji {
+    font-size: 1.5rem;
+    margin-right: 0.8rem;
+  }
+  
+  .name {
+    flex: 1;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .date {
+    font-size: 0.85rem;
+    color: #aaa;
+    margin-right: 1rem;
+  }
+  
+  .deleteBtn {
+    background: none;
+    border: none;
+    color: #ff6b6b;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  

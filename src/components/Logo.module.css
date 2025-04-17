@@ -1,6 +1,8 @@
 /* Logo.module.css */
 
 .Logo {
+display: flex;
+justify-content: center;  
     height: 5.9rem; /* Increase this for a better visible size */
     width: auto;
     object-fit: contain;
