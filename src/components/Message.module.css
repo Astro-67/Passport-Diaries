@@ -1,0 +1,19 @@
+.message {
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Vertically center the emoji and text */
+  justify-content: center; /* Center the message horizontally */
+  font-size: 1.2rem; /* Set a readable font size */
+  color: #333; /* Dark text color for readability */
+  background-color: #f9f9f9; /* Light background for contrast */
+  padding: 1rem 1.5rem; /* Add padding for spacing */
+  border-radius: 8px; /* Round the corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+  margin: 1rem auto; /* Center the message and add spacing */
+  max-width: 600px; /* Limit the width for better readability */
+  text-align: center; /* Center-align the text */
+}
+
+.message span {
+  margin-right: 0.5rem; /* Add spacing between the emoji and the text */
+  font-size: 1.5rem; /* Make the emoji slightly larger */
+}

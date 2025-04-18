@@ -4,7 +4,7 @@
       "id": 1,
       "cityName": "New York",
       "country": "USA",
-      "emoji": "🗽",
+      "emoji": "🇺🇸",
       "date": "2025-04-01",
       "notes": "Visited the Statue of Liberty and Times Square.",
       "position": {
@@ -16,7 +16,7 @@
       "id": 2,
       "cityName": "Tokyo",
       "country": "Japan",
-      "emoji": "🗼",
+      "emoji": "🇯🇵",
       "date": "2025-03-15",
       "notes": "Explored Shibuya Crossing and enjoyed sushi.",
       "position": {
@@ -28,7 +28,7 @@
       "id": 3,
       "cityName": "Paris",
       "country": "France",
-      "emoji": "🗼",
+      "emoji": "🇫🇷",
       "date": "2025-02-20",
       "notes": "Visited the Eiffel Tower and the Louvre.",
       "position": {
@@ -40,7 +40,7 @@
       "id": 4,
       "cityName": "Sydney",
       "country": "Australia",
-      "emoji": "🌉",
+      "emoji": "🇦🇺",
       "date": "2025-01-10",
       "notes": "Saw the Sydney Opera House and Bondi Beach.",
       "position": {
@@ -52,12 +52,144 @@
       "id": 5,
       "cityName": "Cape Town",
       "country": "South Africa",
-      "emoji": "⛰️",
+      "emoji": "🇿🇦",
       "date": "2024-12-05",
       "notes": "Hiked Table Mountain and visited Robben Island.",
       "position": {
         "lat": -33.9249,
         "lng": 18.4241
+      }
+    },
+    {
+      "id": 6,
+      "cityName": "Rio de Janeiro",
+      "country": "Brazil",
+      "emoji": "🇧🇷",
+      "date": "2024-11-15",
+      "notes": "Relaxed on Copacabana Beach and visited Christ the Redeemer.",
+      "position": {
+        "lat": -22.9068,
+        "lng": -43.1729
+      }
+    },
+    {
+      "id": 7,
+      "cityName": "Moscow",
+      "country": "Russia",
+      "emoji": "🇷🇺",
+      "date": "2024-10-20",
+      "notes": "Explored Red Square and the Kremlin.",
+      "position": {
+        "lat": 55.7558,
+        "lng": 37.6173
+      }
+    },
+    {
+      "id": 8,
+      "cityName": "Cairo",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "2024-09-30",
+      "notes": "Visited the Pyramids of Giza and the Sphinx.",
+      "position": {
+        "lat": 30.0444,
+        "lng": 31.2357
+      }
+    },
+    {
+      "id": 9,
+      "cityName": "Los Angeles",
+      "country": "USA",
+      "emoji": "🇺🇸",
+      "date": "2025-05-10",
+      "notes": "Walked along Hollywood Boulevard and visited Santa Monica Pier.",
+      "position": {
+        "lat": 34.0522,
+        "lng": -118.2437
+      }
+    },
+    {
+      "id": 10,
+      "cityName": "Osaka",
+      "country": "Japan",
+      "emoji": "🇯🇵",
+      "date": "2025-03-20",
+      "notes": "Visited Universal Studios Japan and Osaka Castle.",
+      "position": {
+        "lat": 34.6937,
+        "lng": 135.5023
+      }
+    },
+    {
+      "id": 11,
+      "cityName": "Lyon",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2025-02-25",
+      "notes": "Enjoyed the gastronomy and explored the old town.",
+      "position": {
+        "lat": 45.764,
+        "lng": 4.8357
+      }
+    },
+    {
+      "id": 12,
+      "cityName": "Melbourne",
+      "country": "Australia",
+      "emoji": "🇦🇺",
+      "date": "2025-01-15",
+      "notes": "Explored the laneways and enjoyed the coffee culture.",
+      "position": {
+        "lat": -37.8136,
+        "lng": 144.9631
+      }
+    },
+    {
+      "id": 13,
+      "cityName": "Durban",
+      "country": "South Africa",
+      "emoji": "🇿🇦",
+      "date": "2024-12-10",
+      "notes": "Relaxed on the beaches and visited uShaka Marine World.",
+      "position": {
+        "lat": -29.8587,
+        "lng": 31.0218
+      }
+    },
+    {
+      "id": 14,
+      "cityName": "São Paulo",
+      "country": "Brazil",
+      "emoji": "🇧🇷",
+      "date": "2024-11-20",
+      "notes": "Explored Avenida Paulista and enjoyed Brazilian cuisine.",
+      "position": {
+        "lat": -23.5505,
+        "lng": -46.6333
+      }
+    },
+    {
+      "id": 15,
+      "cityName": "Saint Petersburg",
+      "country": "Russia",
+      "emoji": "🇷🇺",
+      "date": "2024-10-25",
+      "notes": "Visited the Hermitage Museum and walked along the canals.",
+      "position": {
+        "lat": 59.9343,
+        "lng": 30.3351
+      }
+    },
+    {
+      "id": 16,
+      "cityName": "Alexandria",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "2024-10-05",
+      "notes": "Explored the Bibliotheca Alexandrina and the Citadel of Qaitbay.",
+      "position": {
+        "lat": 31.2156,
+        "lng": 29.9553
       }
     }
   ]

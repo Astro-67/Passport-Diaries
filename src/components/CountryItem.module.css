@@ -1,0 +1,28 @@
+.countryItem {
+  background-color: #2b2c37; /* Dark background for the item */
+  padding: 1rem; /* Add padding for spacing */
+  border-radius: 8px; /* Round the corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  display: flex;
+  flex-direction: column; /* Stack emoji and text vertically */
+  align-items: center; /* Center-align the content */
+  gap: 0.5rem; /* Add spacing between emoji and text */
+  color: #fff; /* White text color for contrast */
+  text-align: center; /* Center-align the text */
+  font-size: 1rem; /* Base font size */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover effect */
+}
+
+.countryItem:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+}
+
+.countryItem span:first-child {
+  font-size: 2rem; /* Make the emoji larger */
+}
+
+.countryItem span:last-child {
+  font-size: 1.2rem; /* Slightly larger font for the country name */
+  font-weight: bold; /* Make the country name bold */
+}
