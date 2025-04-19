@@ -1,0 +1,39 @@
+/* Default button styles */
+.btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Primary button styles */
+.primary {
+  background-color: #28a745; /* Green background */
+  color: #fff; /* White text */
+}
+
+.primary:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Back button styles */
+.back {
+  background-color: #959ba1; /* Light gray background */
+  color: #fff; /* Dark gray text */
+  border: 1px solid #fff; /* Border to reflect "back" action */
+  padding: 0.4rem 0.8rem; /* Reduced padding */
+  font-size: 0.9rem; /* Slightly smaller font size */
+}
+
+.back:hover {
+  background-color: #e2e6ea; /* Slightly darker gray on hover */
+  color: #343a40; /* Darker text on hover */
+}
+
+/* Add hover effect for all ba\uttons */
+.btn:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
