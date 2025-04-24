@@ -3,8 +3,11 @@ import Spineer from "./Spineer";
 import Styles from "./CountryList.module.css";
 import CountryItem from "./CountryItem";
 import Message from "./Message";
+import { useCities } from "../contexts/CitiesContext";
 
-export default function CountryList({ cities, isLoading }) {
+export default function CountryList() {
+
+  const { cities, isLoading } = useCities();
   if (isLoading) return <Spineer />;
   
   if (!cities.length)

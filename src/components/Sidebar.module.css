@@ -1,13 +1,46 @@
 .sidebar {
   display: flex;
-  flex-direction: column; /* Stack elements vertically */
-  align-items: center; /* Center elements horizontally */
-  width: 340px;
-  background-color: #1d1e26;
+  flex-direction: column;
+  width: 400px; /* Fixed width for the sidebar */
+  background-color: #1d1e26; /* Match the AppNav background */
   color: #fff;
-  padding: 2rem 1.2rem;
-  height: 100vh;
-  overflow-y: auto;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Prevent scrolling for the entire sidebar */
+}
+
+.LogoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.outletContainer {
+  flex: 1; /* Takes remaining height between logo/nav and footer */
+  overflow-y: auto; /* Enables scroll inside this section */
+  padding: 1rem; /* Add padding for spacing */
+  margin: 0 auto; /* Center the Outlet horizontally */
+  width: 90%; /* Ensure the Outlet does not take the full width of the sidebar */
+  max-width: 300px; /* Optional: Limit the maximum width of the Outlet */
+  display: block; /* Use block layout to avoid centering issues */
+  background-color: transparent; /* Match the AppNav background */
+  border: none; /* Remove the border for a seamless look */
+  box-sizing: border-box; /* Ensure padding is included in width/height calculations */
+}
+
+/* Custom scrollbar styling */
+.outletContainer::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.outletContainer::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.2); /* Subtle scrollbar thumb color */
+  border-radius: 4px; /* Rounded scrollbar thumb */
+}
+
+.outletContainer::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.4); /* Highlight scrollbar thumb on hover */
 }
 
 .footer {
@@ -20,12 +53,4 @@
   font-size: 0.9rem;
   color: #999;
   text-align: center;
-}
-
-.LogoContainer {
-  display: flex;
-  justify-content: center; /* Center the logo horizontally */
-  align-items: center; /* Center the logo vertically */
-  width: 100%; /* Ensure the container spans the full width */
-  margin-bottom: 2rem; /* Add spacing below the logo */
 }

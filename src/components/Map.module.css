@@ -1,8 +1,10 @@
 .mapContainer {
   flex: 1;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2rem;
-  color: #333;
+  height: 100%; /* Ensure the container takes the full viewport height */
+}
+
+.map {
+  height: 100%; /* Ensure the map fills the container */
+  width: 100%; /* Optional: Ensure the map fills the width */
 }

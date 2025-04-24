@@ -1,0 +1,46 @@
+.city {
+  background-color: #2b2c37; /* Card background color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 0.5rem 1rem ; /* Internal spacing */
+  color: #fff; /* White text for contrast */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  max-width: 400px; /* Limit the card width */
+  margin: 1rem auto; /* Center the card horizontally and add vertical spacing */
+  
+}
+
+.row {
+  margin-bottom: 0.5rem; /* Spacing between rows */
+}
+
+.row h6 {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #aaa; /* Subtle gray for headings */
+  margin: 0.5rem 0; /* Vertical spacing */
+  text-transform: uppercase;
+}
+
+.row h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* Space between emoji and text */
+  margin: 1rem 0; /* Vertical spacing */
+}
+
+.row p {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.row a {
+  color: #1e90ff; /* Link color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.row a:hover {
+  text-decoration: underline;
+}

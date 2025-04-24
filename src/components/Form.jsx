@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import styles from './Form.module.css';
 import Button from './Button';
-import { useNavigate } from 'react-router-dom';
+import Backbutton from './Backbutton';
+
 
 export default function Form() {
 
-const navigate=useNavigate();
+
 
   const [cityName, setCityName] = useState('');
   const [country, setCountry] = useState('');
@@ -60,9 +61,7 @@ const navigate=useNavigate();
       {/* Buttons */}
       <div className={styles.button}>
         <Button type="primary">Add</Button>
-        <Button type="back" onClick={(e)=>{
-            e.preventDefault();
-            navigate(-1);}}>&larr; Back</Button>
+        <Backbutton/>
       </div>
     </form>
   );

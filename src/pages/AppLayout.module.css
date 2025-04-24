@@ -1,5 +1,6 @@
-.app{
-    height: 100vh;
-    display:flex;
-    width:100%;
+.app {
+  height: 100vh; /* Full viewport height */
+  display: flex; /* Flexbox layout */
+  width: 100%; /* Full width */
+  overflow: hidden;/* Prevent scrolling */
 }
