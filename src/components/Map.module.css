@@ -8,3 +8,42 @@
   height: 100%; /* Ensure the map fills the container */
   width: 100%; /* Optional: Ensure the map fills the width */
 }
+
+
+/* Global styles for Leaflet popup */
+:global(.leaflet-popup .leaflet-popup-content-wrapper) {
+  background-color: #1d1e26;
+  color: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  border-left: 5px solid rgb(8, 248, 8);
+}
+
+:global(.leaflet-popup .leaflet-popup-content) {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 0;
+  line-height: 1.4;
+}
+
+:global(.leaflet-popup .leaflet-popup-tip) {
+  background-color: #1d1e26;
+  border: 1px solid rgba(235, 227, 227, 0.918);
+}
+
+:global(.leaflet-popup-content-wrapper, .leaflet-popup-tip) {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
+}
+
+:global(.leaflet-popup-close-button) {
+  color: #fff !important;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+:global(.leaflet-popup-close-button:hover) {
+  opacity: 1;
+}
