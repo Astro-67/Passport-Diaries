@@ -45,3 +45,24 @@
     border-left: 5px solid #13dd3f;
   }
   
+  .deleteBtn {
+    padding: 0.3rem 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background: none;
+    border: none;
+    color: #FF5555;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .deleteBtn:hover {
+    color: #FF0000;
+    transform: scale(1.2);
+    background-color: rgba(255, 0, 0, 0.1);
+    border-radius: 100%;
+  }
+  
+  .deleteBtn:active {
+    transform: scale(0.95);
+  }

@@ -1,43 +1,102 @@
 .form {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
-  padding: 1rem;
+  gap: 0.4rem;
+  padding: 0.8rem;
   background-color: #2e2f38;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  max-width: 500px;
+  width: 100%;
+  max-width: 260px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .row {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.4rem;
+  width: 100%;
 }
 
-.row label {
-  font-size: 1rem;
-  font-weight: bold;
-  color: #fff;
+.inputContainer {
+  position: relative;
+  width: 100%;
 }
 
-.row input,
+/* Common styles for all input fields */
+.inputWithEmoji,
+input[type="date"],
 .row textarea {
-  font-size: 1rem;
-  border: 1px solid #ccc;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 0.85rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  height: 1.8rem;
+  box-sizing: border-box;
+}
+
+/* Specific padding for input with emoji to prevent text overlap */
+.inputWithEmoji {
+  padding-right: 2rem;
 }
 
 .row textarea {
-min-height: 80px;
-max-height: 150px;
+  min-height: 40px;
+  max-height: 80px;
+  height: auto;
   resize: vertical;
-  min-height: 100px;
 }
 
-.button {
+.emoji {
+  position: absolute;
+  right: 0.4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 1.1rem;
+}
+
+.buttons {
   display: flex;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 0.6rem;
+  margin-top: 0.4rem;
+}
+
+/* Focus states */
+.inputWithEmoji:focus,
+input[type="date"]:focus,
+.row textarea:focus {
+  outline: none;
+  border-color: #4a9eff;
+  box-shadow: 0 0 0 2px rgba(74, 158, 255, 0.1);
+}
+
+:global(.react-datepicker-wrapper),
+:global(.react-datepicker__input-container) {
+  width: 100%;
+  display: block;
+}
+
+/* Style the DatePicker input */
+:global(.react-datepicker__input-container input) {
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 0.85rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  height: 1.8rem;
+  box-sizing: border-box;
+}
+
+.loading {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
 }

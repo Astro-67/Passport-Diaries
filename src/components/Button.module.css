@@ -37,3 +37,35 @@
 .btn:hover {
   transform: scale(1.05); /* Slightly enlarge on hover */
 }
+
+/* ...existing code... */
+
+/* Position button styles */
+.position {
+  position: absolute;
+  z-index: 1000;
+  font-size: 1.4rem;
+  padding: 0.8rem 1.6rem;
+  bottom: 2rem; /* Changed from top to bottom */
+  left: 65%; /* Center horizontally */
+  transform: translateX(-50%); /* Offset the button by half its width */
+  background-color: #296621;
+  color: #131212;
+  box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.position:hover {
+  background-color: #598d5e;
+  transform: translateX(-50%) translateY(-2px); /* Maintain horizontal centering while adding hover effect */
+  box-shadow: 0 0.8rem 2.4rem rgba(0, 0, 0, 0.3);
+}
+
+.position:active {
+  transform: translateX(-50%) translateY(0); /* Maintain horizontal centering */
+}
