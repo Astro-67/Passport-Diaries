@@ -59,6 +59,18 @@
       "emoji": "🇹🇿",
       "country": "Tanzania, the United Republic of",
       "id": 25
+    },
+    {
+      "cityName": "Fuentes de Ayodar",
+      "date": "2025-04-28",
+      "notes": "meeee",
+      "position": {
+        "lat": "40.01078714046552",
+        "lng": "-0.42709350585937506"
+      },
+      "emoji": "🇪🇸",
+      "country": "Spain",
+      "id": 26
     }
   ]
 }
