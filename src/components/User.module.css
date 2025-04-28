@@ -1,0 +1,44 @@
+.user {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #2e2f38;
+    padding: 0.8rem 1.2rem;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 260px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+
+.user img {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  border: 2px solid #13dd3f;
+}
+
+.user span {
+  color: #fff;
+  font-size: 0.9rem;
+  margin-right: auto;
+}
+
+.user button {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.user button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+}

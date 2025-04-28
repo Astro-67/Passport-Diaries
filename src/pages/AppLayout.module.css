@@ -3,4 +3,5 @@
   display: flex; /* Flexbox layout */
   width: 100%; /* Full width */
   overflow: hidden;/* Prevent scrolling */
+  position: relative;
 }

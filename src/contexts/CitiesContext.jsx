@@ -61,9 +61,6 @@ const BASE_URL = "http://localhost:8000";
 
 function CitiesProvider({ children }) {
   const [{cities,isLoading,currentCity},dispatch] = useReducer(reducer, initialState);
-  // const [cities, setCities] = useState([]);
-  // const [isLoading, setIsLoading] = useState(false);
-  // const [currentCity, setCurrentCity] = useState({});
 
   useEffect(function () {
     async function fetchCities() {
