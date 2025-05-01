@@ -1,5 +1,5 @@
 import React from 'react';
-import Spineer from './Spineer';
+import Spineer from './Spinner';
 import Styles from "./CityList.module.css";
 import CityItem from './CityItem';
 import Message from './Message';

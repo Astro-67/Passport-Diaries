@@ -9,7 +9,7 @@ import Button from "./Button";
 import Backbutton from "./Backbutton";
 import useUrlPosition from "../hooks/useUrlPosition";
 import Message from "./Message";
-import Spineer from "./Spineer";
+import Spineer from "./Spinner";
 import { useCities} from "../contexts/CitiesContext";
 
 

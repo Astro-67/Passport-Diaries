@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import styles from "./City.module.css";
 import { useParams } from "react-router-dom";
 import { useCities } from "../contexts/CitiesContext";
-import Spinner from "./Spineer";
+import Spinner from "./Spinner";
 import Backbutton from "./Backbutton";
 
 function formatDate(date) {
@@ -19,7 +19,7 @@ export default function City() {
     function () {
       getCity(cityId);
     },
-    [cityId]
+    [cityId,getCity]
   );
 
   const { cityName, emoji, date, notes } = currentCity;
